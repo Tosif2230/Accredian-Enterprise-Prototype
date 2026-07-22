@@ -54,6 +54,7 @@ export const ApproachSection = () => (
             key={audience.title}
             className="rounded-2xl bg-white p-6 shadow-sm"
           >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={audience.image}
               alt={audience.title}

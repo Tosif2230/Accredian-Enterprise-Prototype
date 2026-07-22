@@ -18,6 +18,7 @@ export const Navbar = () => {
           className="flex items-center gap-2 font-bold text-slate-900"
           onClick={closeMenu}
         >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="https://storage.googleapis.com/accredian-assets/Frontend_Assests/Images/Accredian-react-site-images/other/logo.webp"
             alt="Accredian logo"
