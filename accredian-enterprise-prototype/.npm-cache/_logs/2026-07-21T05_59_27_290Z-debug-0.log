@@ -1,0 +1,1122 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\.npmrc
+5 silly config load:file:C:\Users\techi\.npmrc
+6 silly config load:file:C:\Users\techi\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\.npm-cache\_logs\2026-07-21T05_59_27_290Z-
+10 verbose logfile E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\.npm-cache\_logs\2026-07-21T05_59_27_290Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest @tailwindcss/oxide-darwin-arm64@4.3.3
+15 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 6063ms
+17 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 2785ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 set size:undefined disposed:false
+19 silly fetch manifest @tailwindcss/oxide-linux-arm64-musl@4.3.3
+20 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl 282ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl set size:undefined disposed:false
+23 silly fetch manifest @tailwindcss/oxide-linux-arm64-gnu@4.3.3
+24 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu 318ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu set size:undefined disposed:false
+27 silly fetch manifest @tailwindcss/oxide-linux-x64-musl@4.3.3
+28 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl 237ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl set size:undefined disposed:false
+31 silly fetch manifest @tailwindcss/oxide-linux-x64-gnu@4.3.3
+32 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu 299ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu set size:undefined disposed:false
+35 silly fetch manifest @tailwindcss/oxide-wasm32-wasi@4.3.3
+36 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi 201ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi set size:undefined disposed:false
+39 silly fetch manifest @tailwindcss/oxide-freebsd-x64@4.3.3
+40 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 268ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 set size:undefined disposed:false
+43 silly fetch manifest @tailwindcss/oxide-win32-arm64-msvc@4.3.3
+44 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc 218ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc set size:undefined disposed:false
+47 silly fetch manifest @tailwindcss/oxide-linux-arm-gnueabihf@4.3.3
+48 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf 271ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf set size:undefined disposed:false
+51 silly fetch manifest @tailwindcss/oxide-darwin-x64@4.3.3
+52 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 328ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 set size:undefined disposed:false
+55 silly fetch manifest @tailwindcss/oxide-android-arm64@4.3.3
+56 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 218ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 set size:undefined disposed:false
+59 silly placeDep node_modules/@tailwindcss/oxide @tailwindcss/oxide-android-arm64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+60 silly placeDep node_modules/@tailwindcss/oxide @tailwindcss/oxide-darwin-arm64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+61 silly placeDep node_modules/@tailwindcss/oxide @tailwindcss/oxide-darwin-x64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+62 silly placeDep node_modules/@tailwindcss/oxide @tailwindcss/oxide-freebsd-x64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+63 silly placeDep node_modules/@tailwindcss/oxide @tailwindcss/oxide-linux-arm-gnueabihf@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+64 silly placeDep node_modules/@tailwindcss/oxide @tailwindcss/oxide-linux-arm64-gnu@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+65 silly placeDep node_modules/@tailwindcss/oxide @tailwindcss/oxide-linux-arm64-musl@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+66 silly placeDep node_modules/@tailwindcss/oxide @tailwindcss/oxide-linux-x64-gnu@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+67 silly placeDep node_modules/@tailwindcss/oxide @tailwindcss/oxide-linux-x64-musl@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+68 silly placeDep node_modules/@tailwindcss/oxide @tailwindcss/oxide-wasm32-wasi@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+69 silly placeDep node_modules/@tailwindcss/oxide @tailwindcss/oxide-win32-arm64-msvc@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+70 silly fetch manifest lightningcss-darwin-x64@1.32.0
+71 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-x64 56ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 set size:undefined disposed:false
+74 silly fetch manifest lightningcss-linux-x64-gnu@1.32.0
+75 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-gnu 54ms (cache miss)
+77 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu set size:undefined disposed:false
+78 silly fetch manifest lightningcss-win32-arm64-msvc@1.32.0
+79 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-arm64-msvc 56ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc set size:undefined disposed:false
+82 silly fetch manifest lightningcss-darwin-arm64@1.32.0
+83 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-arm64 86ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 set size:undefined disposed:false
+86 silly fetch manifest lightningcss-linux-arm64-gnu@1.32.0
+87 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-gnu 53ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu set size:undefined disposed:false
+90 silly fetch manifest lightningcss-linux-arm-gnueabihf@1.32.0
+91 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf 53ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf set size:undefined disposed:false
+94 silly fetch manifest lightningcss-linux-arm64-musl@1.32.0
+95 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-musl 54ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl set size:undefined disposed:false
+98 silly fetch manifest lightningcss-linux-x64-musl@1.32.0
+99 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-musl 64ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl set size:undefined disposed:false
+102 silly fetch manifest lightningcss-freebsd-x64@1.32.0
+103 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/lightningcss-freebsd-x64 61ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 set size:undefined disposed:false
+106 silly fetch manifest lightningcss-android-arm64@1.32.0
+107 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/lightningcss-android-arm64 50ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 set size:undefined disposed:false
+110 silly placeDep node_modules/lightningcss lightningcss-android-arm64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+111 silly placeDep node_modules/lightningcss lightningcss-darwin-arm64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+112 silly placeDep node_modules/lightningcss lightningcss-darwin-x64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+113 silly placeDep node_modules/lightningcss lightningcss-freebsd-x64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+114 silly placeDep node_modules/lightningcss lightningcss-linux-arm-gnueabihf@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+115 silly placeDep node_modules/lightningcss lightningcss-linux-arm64-gnu@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+116 silly placeDep node_modules/lightningcss lightningcss-linux-arm64-musl@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+117 silly placeDep node_modules/lightningcss lightningcss-linux-x64-gnu@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+118 silly placeDep node_modules/lightningcss lightningcss-linux-x64-musl@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+119 silly placeDep node_modules/lightningcss lightningcss-win32-arm64-msvc@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+120 silly fetch manifest @next/swc-darwin-arm64@15.5.20
+121 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 cache-miss
+122 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-arm64 1055ms (cache miss)
+123 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 set size:undefined disposed:false
+124 silly fetch manifest @next/swc-darwin-x64@15.5.20
+125 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 cache-miss
+126 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-x64 541ms (cache miss)
+127 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 set size:undefined disposed:false
+128 silly fetch manifest @next/swc-linux-arm64-gnu@15.5.20
+129 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu cache-miss
+130 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 633ms (cache miss)
+131 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu set size:undefined disposed:false
+132 silly fetch manifest @next/swc-linux-arm64-musl@15.5.20
+133 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl cache-miss
+134 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 599ms (cache miss)
+135 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl set size:undefined disposed:false
+136 silly fetch manifest @next/swc-linux-x64-gnu@15.5.20
+137 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu cache-miss
+138 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 700ms (cache miss)
+139 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu set size:undefined disposed:false
+140 silly fetch manifest @next/swc-linux-x64-musl@15.5.20
+141 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl cache-miss
+142 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-musl 438ms (cache miss)
+143 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl set size:undefined disposed:false
+144 silly fetch manifest @next/swc-win32-arm64-msvc@15.5.20
+145 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc cache-miss
+146 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 401ms (cache miss)
+147 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc set size:undefined disposed:false
+148 silly placeDep node_modules/next @next/swc-darwin-arm64@15.5.20 OK for: next@15.5.20 want: 15.5.20
+149 silly placeDep node_modules/next @next/swc-darwin-x64@15.5.20 OK for: next@15.5.20 want: 15.5.20
+150 silly placeDep node_modules/next @next/swc-linux-arm64-gnu@15.5.20 OK for: next@15.5.20 want: 15.5.20
+151 silly placeDep node_modules/next @next/swc-linux-arm64-musl@15.5.20 OK for: next@15.5.20 want: 15.5.20
+152 silly placeDep node_modules/next @next/swc-linux-x64-gnu@15.5.20 OK for: next@15.5.20 want: 15.5.20
+153 silly placeDep node_modules/next @next/swc-linux-x64-musl@15.5.20 OK for: next@15.5.20 want: 15.5.20
+154 silly placeDep node_modules/next @next/swc-win32-arm64-msvc@15.5.20 OK for: next@15.5.20 want: 15.5.20
+155 silly fetch manifest @img/sharp-darwin-arm64@0.34.5
+156 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 cache-miss
+157 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-darwin-arm64 347ms (cache miss)
+158 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 set size:undefined disposed:false
+159 silly fetch manifest @img/sharp-darwin-x64@0.34.5
+160 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 cache-miss
+161 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-darwin-x64 75ms (cache miss)
+162 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 set size:undefined disposed:false
+163 silly fetch manifest @img/sharp-libvips-darwin-arm64@1.2.4
+164 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 cache-miss
+165 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 80ms (cache miss)
+166 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 set size:undefined disposed:false
+167 silly fetch manifest @img/sharp-libvips-darwin-x64@1.2.4
+168 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 cache-miss
+169 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 61ms (cache miss)
+170 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 set size:undefined disposed:false
+171 silly fetch manifest @img/sharp-libvips-linux-arm@1.2.4
+172 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm 60ms (cache miss)
+174 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm set size:undefined disposed:false
+175 silly fetch manifest @img/sharp-libvips-linux-arm64@1.2.4
+176 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 59ms (cache miss)
+178 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 set size:undefined disposed:false
+179 silly fetch manifest @img/sharp-libvips-linux-ppc64@1.2.4
+180 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 cache-miss
+181 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 248ms (cache miss)
+182 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 set size:undefined disposed:false
+183 silly fetch manifest @img/sharp-libvips-linux-riscv64@1.2.4
+184 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 cache-miss
+185 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 561ms (cache miss)
+186 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 set size:undefined disposed:false
+187 silly fetch manifest @img/sharp-libvips-linux-s390x@1.2.4
+188 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x cache-miss
+189 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x 352ms (cache miss)
+190 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x set size:undefined disposed:false
+191 silly fetch manifest @img/sharp-libvips-linux-x64@1.2.4
+192 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 cache-miss
+193 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 53ms (cache miss)
+194 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 set size:undefined disposed:false
+195 silly fetch manifest @img/sharp-libvips-linuxmusl-arm64@1.2.4
+196 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 cache-miss
+197 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 104ms (cache miss)
+198 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 set size:undefined disposed:false
+199 silly fetch manifest @img/sharp-libvips-linuxmusl-x64@1.2.4
+200 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 cache-miss
+201 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 59ms (cache miss)
+202 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 set size:undefined disposed:false
+203 silly fetch manifest @img/sharp-linux-arm@0.34.5
+204 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm cache-miss
+205 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-arm 69ms (cache miss)
+206 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm set size:undefined disposed:false
+207 silly fetch manifest @img/sharp-linux-arm64@0.34.5
+208 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm64 cache-miss
+209 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-arm64 66ms (cache miss)
+210 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm64 set size:undefined disposed:false
+211 silly fetch manifest @img/sharp-linux-ppc64@0.34.5
+212 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-ppc64 cache-miss
+213 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-ppc64 67ms (cache miss)
+214 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-ppc64 set size:undefined disposed:false
+215 silly fetch manifest @img/sharp-linux-riscv64@0.34.5
+216 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-riscv64 cache-miss
+217 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-riscv64 313ms (cache miss)
+218 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-riscv64 set size:undefined disposed:false
+219 silly fetch manifest @img/sharp-linux-s390x@0.34.5
+220 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-s390x cache-miss
+221 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-s390x 73ms (cache miss)
+222 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-s390x set size:undefined disposed:false
+223 silly fetch manifest @img/sharp-linux-x64@0.34.5
+224 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-x64 cache-miss
+225 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-x64 267ms (cache miss)
+226 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-x64 set size:undefined disposed:false
+227 silly fetch manifest @img/sharp-linuxmusl-arm64@0.34.5
+228 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 cache-miss
+229 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 80ms (cache miss)
+230 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 set size:undefined disposed:false
+231 silly fetch manifest @img/sharp-linuxmusl-x64@0.34.5
+232 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 cache-miss
+233 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 70ms (cache miss)
+234 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 set size:undefined disposed:false
+235 silly fetch manifest @img/sharp-wasm32@0.34.5
+236 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 cache-miss
+237 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-wasm32 69ms (cache miss)
+238 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 set size:undefined disposed:false
+239 silly fetch manifest @img/sharp-win32-arm64@0.34.5
+240 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-arm64 cache-miss
+241 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-win32-arm64 57ms (cache miss)
+242 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-arm64 set size:undefined disposed:false
+243 silly fetch manifest @img/sharp-win32-ia32@0.34.5
+244 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-ia32 cache-miss
+245 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-win32-ia32 65ms (cache miss)
+246 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-ia32 set size:undefined disposed:false
+247 silly placeDep node_modules/sharp @img/sharp-darwin-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+248 silly placeDep node_modules/sharp @img/sharp-darwin-x64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+249 silly placeDep node_modules/sharp @img/sharp-libvips-darwin-arm64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+250 silly placeDep node_modules/sharp @img/sharp-libvips-darwin-x64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+251 silly placeDep node_modules/sharp @img/sharp-libvips-linux-arm@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+252 silly placeDep node_modules/sharp @img/sharp-libvips-linux-arm64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+253 silly placeDep node_modules/sharp @img/sharp-libvips-linux-ppc64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+254 silly placeDep node_modules/sharp @img/sharp-libvips-linux-riscv64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+255 silly placeDep node_modules/sharp @img/sharp-libvips-linux-s390x@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+256 silly placeDep node_modules/sharp @img/sharp-libvips-linux-x64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+257 silly placeDep node_modules/sharp @img/sharp-libvips-linuxmusl-arm64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+258 silly placeDep node_modules/sharp @img/sharp-libvips-linuxmusl-x64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+259 silly placeDep node_modules/sharp @img/sharp-linux-arm@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+260 silly placeDep node_modules/sharp @img/sharp-linux-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+261 silly placeDep node_modules/sharp @img/sharp-linux-ppc64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+262 silly placeDep node_modules/sharp @img/sharp-linux-riscv64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+263 silly placeDep node_modules/sharp @img/sharp-linux-s390x@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+264 silly placeDep node_modules/sharp @img/sharp-linux-x64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+265 silly placeDep node_modules/sharp @img/sharp-linuxmusl-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+266 silly placeDep node_modules/sharp @img/sharp-linuxmusl-x64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+267 silly placeDep node_modules/sharp @img/sharp-wasm32@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+268 silly placeDep node_modules/sharp @img/sharp-win32-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+269 silly placeDep node_modules/sharp @img/sharp-win32-ia32@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+270 silly fetch manifest @unrs/resolver-binding-darwin-arm64@1.12.2
+271 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 cache-miss
+272 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 67ms (cache miss)
+273 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 set size:undefined disposed:false
+274 silly fetch manifest @unrs/resolver-binding-android-arm64@1.12.2
+275 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 cache-miss
+276 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 72ms (cache miss)
+277 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 set size:undefined disposed:false
+278 silly fetch manifest @unrs/resolver-binding-win32-arm64-msvc@1.12.2
+279 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc cache-miss
+280 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc 67ms (cache miss)
+281 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc set size:undefined disposed:false
+282 silly fetch manifest @unrs/resolver-binding-linux-arm64-gnu@1.12.2
+283 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu cache-miss
+284 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu 303ms (cache miss)
+285 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu set size:undefined disposed:false
+286 silly fetch manifest @unrs/resolver-binding-linux-arm64-musl@1.12.2
+287 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl cache-miss
+288 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl 520ms (cache miss)
+289 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl set size:undefined disposed:false
+290 silly fetch manifest @unrs/resolver-binding-openharmony-arm64@1.12.2
+291 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-openharmony-arm64 cache-miss
+292 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-openharmony-arm64 68ms (cache miss)
+293 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-openharmony-arm64 set size:undefined disposed:false
+294 silly fetch manifest @unrs/resolver-binding-android-arm-eabi@1.12.2
+295 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi cache-miss
+296 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi 327ms (cache miss)
+297 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi set size:undefined disposed:false
+298 silly fetch manifest @unrs/resolver-binding-linux-arm-gnueabihf@1.12.2
+299 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf cache-miss
+300 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf 75ms (cache miss)
+301 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf set size:undefined disposed:false
+302 silly fetch manifest @unrs/resolver-binding-linux-arm-musleabihf@1.12.2
+303 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf cache-miss
+304 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf 575ms (cache miss)
+305 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf set size:undefined disposed:false
+306 silly fetch manifest @unrs/resolver-binding-win32-ia32-msvc@1.12.2
+307 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc cache-miss
+308 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc 71ms (cache miss)
+309 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc set size:undefined disposed:false
+310 silly fetch manifest @unrs/resolver-binding-linux-loong64-gnu@1.12.2
+311 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-gnu cache-miss
+312 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-gnu 57ms (cache miss)
+313 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-gnu set size:undefined disposed:false
+314 silly fetch manifest @unrs/resolver-binding-linux-loong64-musl@1.12.2
+315 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-musl cache-miss
+316 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-musl 331ms (cache miss)
+317 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-musl set size:undefined disposed:false
+318 silly fetch manifest @unrs/resolver-binding-linux-ppc64-gnu@1.12.2
+319 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu cache-miss
+320 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu 66ms (cache miss)
+321 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu set size:undefined disposed:false
+322 silly fetch manifest @unrs/resolver-binding-linux-riscv64-gnu@1.12.2
+323 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu cache-miss
+324 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu 334ms (cache miss)
+325 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu set size:undefined disposed:false
+326 silly fetch manifest @unrs/resolver-binding-linux-riscv64-musl@1.12.2
+327 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl cache-miss
+328 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl 197ms (cache miss)
+329 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl set size:undefined disposed:false
+330 silly fetch manifest @unrs/resolver-binding-linux-s390x-gnu@1.12.2
+331 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu cache-miss
+332 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu 185ms (cache miss)
+333 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu set size:undefined disposed:false
+334 silly fetch manifest @unrs/resolver-binding-wasm32-wasi@1.12.2
+335 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi cache-miss
+336 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi 62ms (cache miss)
+337 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi set size:undefined disposed:false
+338 silly fetch manifest @unrs/resolver-binding-darwin-x64@1.12.2
+339 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 cache-miss
+340 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 74ms (cache miss)
+341 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 set size:undefined disposed:false
+342 silly fetch manifest @unrs/resolver-binding-freebsd-x64@1.12.2
+343 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 cache-miss
+344 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 62ms (cache miss)
+345 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 set size:undefined disposed:false
+346 silly fetch manifest @unrs/resolver-binding-linux-x64-gnu@1.12.2
+347 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu cache-miss
+348 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu 65ms (cache miss)
+349 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu set size:undefined disposed:false
+350 silly fetch manifest @unrs/resolver-binding-linux-x64-musl@1.12.2
+351 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl cache-miss
+352 http fetch GET 200 https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl 300ms (cache miss)
+353 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl set size:undefined disposed:false
+354 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-android-arm-eabi@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+355 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-android-arm64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+356 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-darwin-arm64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+357 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-darwin-x64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+358 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-freebsd-x64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+359 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-linux-arm-gnueabihf@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+360 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-linux-arm-musleabihf@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+361 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-linux-arm64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+362 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-linux-arm64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+363 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-linux-loong64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+364 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-linux-loong64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+365 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-linux-ppc64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+366 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-linux-riscv64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+367 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-linux-riscv64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+368 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-linux-s390x-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+369 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-linux-x64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+370 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-linux-x64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+371 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-openharmony-arm64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+372 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-wasm32-wasi@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+373 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-win32-arm64-msvc@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+374 silly placeDep node_modules/unrs-resolver @unrs/resolver-binding-win32-ia32-msvc@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+375 silly fetch manifest @emnapi/runtime@1.10.0
+376 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
+377 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fruntime 189ms (cache miss)
+378 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime set size:undefined disposed:false
+379 silly placeDep node_modules/unrs-resolver @emnapi/runtime@1.10.0 OK for: @unrs/resolver-binding-wasm32-wasi@1.12.2 want: 1.10.0
+380 silly reify mark retired [
+380 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-android-arm64'
+380 silly reify ]
+381 silly reify mark retired [
+381 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-darwin-arm64'
+381 silly reify ]
+382 silly reify mark retired [
+382 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-darwin-x64'
+382 silly reify ]
+383 silly reify mark retired [
+383 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-freebsd-x64'
+383 silly reify ]
+384 silly reify mark retired [
+384 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-linux-arm-gnueabihf'
+384 silly reify ]
+385 silly reify mark retired [
+385 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-linux-arm64-gnu'
+385 silly reify ]
+386 silly reify mark retired [
+386 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-linux-arm64-musl'
+386 silly reify ]
+387 silly reify mark retired [
+387 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-linux-x64-gnu'
+387 silly reify ]
+388 silly reify mark retired [
+388 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-linux-x64-musl'
+388 silly reify ]
+389 silly reify mark retired [
+389 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-win32-arm64-msvc'
+389 silly reify ]
+390 silly reify mark retired [
+390 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-darwin-arm64'
+390 silly reify ]
+391 silly reify mark retired [
+391 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-darwin-x64'
+391 silly reify ]
+392 silly reify mark retired [
+392 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+392 silly reify ]
+393 silly reify mark retired [
+393 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-darwin-x64'
+393 silly reify ]
+394 silly reify mark retired [
+394 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linux-arm'
+394 silly reify ]
+395 silly reify mark retired [
+395 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linux-arm64'
+395 silly reify ]
+396 silly reify mark retired [
+396 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+396 silly reify ]
+397 silly reify mark retired [
+397 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+397 silly reify ]
+398 silly reify mark retired [
+398 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linux-s390x'
+398 silly reify ]
+399 silly reify mark retired [
+399 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linux-x64'
+399 silly reify ]
+400 silly reify mark retired [
+400 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+400 silly reify ]
+401 silly reify mark retired [
+401 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+401 silly reify ]
+402 silly reify mark retired [
+402 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linux-arm'
+402 silly reify ]
+403 silly reify mark retired [
+403 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linux-arm64'
+403 silly reify ]
+404 silly reify mark retired [
+404 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linux-ppc64'
+404 silly reify ]
+405 silly reify mark retired [
+405 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linux-riscv64'
+405 silly reify ]
+406 silly reify mark retired [
+406 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linux-s390x'
+406 silly reify ]
+407 silly reify mark retired [
+407 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linux-x64'
+407 silly reify ]
+408 silly reify mark retired [
+408 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linuxmusl-arm64'
+408 silly reify ]
+409 silly reify mark retired [
+409 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linuxmusl-x64'
+409 silly reify ]
+410 silly reify mark retired [
+410 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-wasm32'
+410 silly reify ]
+411 silly reify mark retired [
+411 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-win32-arm64'
+411 silly reify ]
+412 silly reify mark retired [
+412 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-win32-ia32'
+412 silly reify ]
+413 silly reify mark retired [
+413 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\swc-darwin-arm64'
+413 silly reify ]
+414 silly reify mark retired [
+414 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\swc-darwin-x64'
+414 silly reify ]
+415 silly reify mark retired [
+415 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\swc-linux-arm64-gnu'
+415 silly reify ]
+416 silly reify mark retired [
+416 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\swc-linux-arm64-musl'
+416 silly reify ]
+417 silly reify mark retired [
+417 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\swc-linux-x64-gnu'
+417 silly reify ]
+418 silly reify mark retired [
+418 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\swc-linux-x64-musl'
+418 silly reify ]
+419 silly reify mark retired [
+419 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\swc-win32-arm64-msvc'
+419 silly reify ]
+420 silly reify mark retired [
+420 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-android-arm64'
+420 silly reify ]
+421 silly reify mark retired [
+421 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+421 silly reify ]
+422 silly reify mark retired [
+422 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+422 silly reify ]
+423 silly reify mark retired [
+423 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+423 silly reify ]
+424 silly reify mark retired [
+424 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+424 silly reify ]
+425 silly reify mark retired [
+425 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+425 silly reify ]
+426 silly reify mark retired [
+426 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+426 silly reify ]
+427 silly reify mark retired [
+427 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+427 silly reify ]
+428 silly reify mark retired [
+428 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+428 silly reify ]
+429 silly reify mark retired [
+429 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+429 silly reify ]
+430 silly reify mark retired [
+430 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+430 silly reify ]
+431 silly reify mark retired [
+431 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-android-arm-eabi'
+431 silly reify ]
+432 silly reify mark retired [
+432 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-android-arm64'
+432 silly reify ]
+433 silly reify mark retired [
+433 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-darwin-arm64'
+433 silly reify ]
+434 silly reify mark retired [
+434 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-darwin-x64'
+434 silly reify ]
+435 silly reify mark retired [
+435 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-freebsd-x64'
+435 silly reify ]
+436 silly reify mark retired [
+436 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-arm-gnueabihf'
+436 silly reify ]
+437 silly reify mark retired [
+437 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-arm-musleabihf'
+437 silly reify ]
+438 silly reify mark retired [
+438 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-arm64-gnu'
+438 silly reify ]
+439 silly reify mark retired [
+439 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-arm64-musl'
+439 silly reify ]
+440 silly reify mark retired [
+440 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-loong64-gnu'
+440 silly reify ]
+441 silly reify mark retired [
+441 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-loong64-musl'
+441 silly reify ]
+442 silly reify mark retired [
+442 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-ppc64-gnu'
+442 silly reify ]
+443 silly reify mark retired [
+443 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-riscv64-gnu'
+443 silly reify ]
+444 silly reify mark retired [
+444 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-riscv64-musl'
+444 silly reify ]
+445 silly reify mark retired [
+445 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-s390x-gnu'
+445 silly reify ]
+446 silly reify mark retired [
+446 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-x64-gnu'
+446 silly reify ]
+447 silly reify mark retired [
+447 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-x64-musl'
+447 silly reify ]
+448 silly reify mark retired [
+448 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-openharmony-arm64'
+448 silly reify ]
+449 silly reify mark retired [
+449 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-wasm32-wasi'
+449 silly reify ]
+450 silly reify mark retired [
+450 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-win32-arm64-msvc'
+450 silly reify ]
+451 silly reify mark retired [
+451 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-win32-ia32-msvc'
+451 silly reify ]
+452 silly reify moves {
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-android-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\.lightningcss-android-arm64-LVV1ZbWR',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-darwin-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\.lightningcss-darwin-arm64-kiZM7oNm',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-darwin-x64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\.lightningcss-darwin-x64-9dWaAvOx',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-freebsd-x64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\.lightningcss-freebsd-x64-1DW5QYlw',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-linux-arm-gnueabihf': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\.lightningcss-linux-arm-gnueabihf-IbGgqY7V',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-linux-arm64-gnu': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\.lightningcss-linux-arm64-gnu-OMuljuv8',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-linux-arm64-musl': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\.lightningcss-linux-arm64-musl-7L8njKDq',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-linux-x64-gnu': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\.lightningcss-linux-x64-gnu-TE0IYAnO',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-linux-x64-musl': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\.lightningcss-linux-x64-musl-vTWkO4y8',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss-win32-arm64-msvc': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\.lightningcss-win32-arm64-msvc-pfmWSm8e',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-darwin-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-darwin-arm64-92Jl2yxF',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-darwin-x64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-darwin-x64-xTXUueD3',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-darwin-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-libvips-darwin-arm64-yAeSjaqh',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-darwin-x64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-libvips-darwin-x64-P8wK7dEU',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linux-arm': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-libvips-linux-arm-vjn9Mpwp',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linux-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-libvips-linux-arm64-1hW9RiFr',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linux-ppc64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-libvips-linux-ppc64-1I9jRX2G',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linux-riscv64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-libvips-linux-riscv64-7WFIro1G',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linux-s390x': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-libvips-linux-s390x-LvqKnC7a',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linux-x64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-libvips-linux-x64-Ws9dTRaa',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-libvips-linuxmusl-arm64-kV4IBDW7',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-libvips-linuxmusl-x64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-libvips-linuxmusl-x64-VZkZEaVL',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linux-arm': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-linux-arm-uy1Kg8e4',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linux-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-linux-arm64-yi2lfjLj',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linux-ppc64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-linux-ppc64-rktILAEm',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linux-riscv64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-linux-riscv64-7SaSpkij',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linux-s390x': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-linux-s390x-yhjYNTGZ',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linux-x64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-linux-x64-GDHhLc3M',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linuxmusl-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-linuxmusl-arm64-9eBz3aXv',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-linuxmusl-x64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-linuxmusl-x64-kzbEK7qc',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-wasm32': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-wasm32-xMnndgk6',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-win32-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-win32-arm64-cD5r03iR',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\sharp-win32-ia32': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@img\\.sharp-win32-ia32-75svWXSD',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\swc-darwin-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\.swc-darwin-arm64-pPDSZb4v',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\swc-darwin-x64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\.swc-darwin-x64-7Ou1ZmFu',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\swc-linux-arm64-gnu': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\.swc-linux-arm64-gnu-HQvjkFW4',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\swc-linux-arm64-musl': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\.swc-linux-arm64-musl-kHJEkYTQ',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\swc-linux-x64-gnu': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\.swc-linux-x64-gnu-81IP3a2S',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\swc-linux-x64-musl': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\.swc-linux-x64-musl-MOXACKBX',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\swc-win32-arm64-msvc': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@next\\.swc-win32-arm64-msvc-GZ3hv6xf',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-android-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\.oxide-android-arm64-VlRuxtsD',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-darwin-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\.oxide-darwin-arm64-BHjPLpo6',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-darwin-x64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\.oxide-darwin-x64-PA7IEHk7',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-freebsd-x64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\.oxide-freebsd-x64-ytR9VYVG',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\.oxide-linux-arm-gnueabihf-rGlDJVUa',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\.oxide-linux-arm64-gnu-zYQM8j6J',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\.oxide-linux-x64-gnu-QxuZefgS',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\.oxide-linux-arm64-musl-azgOBbcs',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-linux-x64-musl': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\.oxide-linux-x64-musl-z2gQ4mVl',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-wasm32-wasi': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\.oxide-wasm32-wasi-rg9E6vb9',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\.oxide-win32-arm64-msvc-B2pGcIAQ',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-android-arm-eabi': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-android-arm-eabi-uIUU83A1',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-android-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-android-arm64-oarWQc4Q',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-darwin-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-darwin-arm64-9Oc305tl',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-darwin-x64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-darwin-x64-b2b0M4go',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-freebsd-x64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-freebsd-x64-9G73qmoi',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-arm-gnueabihf': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-linux-arm-gnueabihf-D511GV81',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-arm-musleabihf': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-linux-arm-musleabihf-dnwFmtkq',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-arm64-gnu': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-linux-arm64-gnu-ourqWAHa',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-arm64-musl': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-linux-arm64-musl-tRmD1uqw',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-loong64-gnu': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-linux-loong64-gnu-QGKFRIb4',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-loong64-musl': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-linux-loong64-musl-WpIwYX4a',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-ppc64-gnu': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-linux-ppc64-gnu-zjisP4bO',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-riscv64-gnu': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-linux-riscv64-gnu-u8nVoNM4',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-riscv64-musl': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-linux-riscv64-musl-MBNdurSM',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-s390x-gnu': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-linux-s390x-gnu-suJYPQ9u',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-x64-gnu': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-linux-x64-gnu-uHKxU2mM',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-linux-x64-musl': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-linux-x64-musl-avzVe8nZ',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-openharmony-arm64': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-openharmony-arm64-CLW6q3ja',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-wasm32-wasi': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-wasm32-wasi-4KvfTAmR',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-win32-arm64-msvc': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-win32-arm64-msvc-KU4ooF3R',
+452 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\resolver-binding-win32-ia32-msvc': 'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@unrs\\.resolver-binding-win32-ia32-msvc-PrQOnKSN'
+452 silly reify }
+453 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-wasm32-wasi
+454 silly reify mark deleted [
+454 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+454 silly reify ]
+455 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\next\node_modules\@next\swc-win32-arm64-msvc
+456 silly reify mark deleted [
+456 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\next\\node_modules\\@next\\swc-win32-arm64-msvc'
+456 silly reify ]
+457 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\next\node_modules\@next\swc-linux-x64-musl
+458 silly reify mark deleted [
+458 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\next\\node_modules\\@next\\swc-linux-x64-musl'
+458 silly reify ]
+459 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\next\node_modules\@next\swc-linux-x64-gnu
+460 silly reify mark deleted [
+460 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\next\\node_modules\\@next\\swc-linux-x64-gnu'
+460 silly reify ]
+461 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\next\node_modules\@next\swc-linux-arm64-musl
+462 silly reify mark deleted [
+462 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\next\\node_modules\\@next\\swc-linux-arm64-musl'
+462 silly reify ]
+463 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\next\node_modules\@next\swc-linux-arm64-gnu
+464 silly reify mark deleted [
+464 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\next\\node_modules\\@next\\swc-linux-arm64-gnu'
+464 silly reify ]
+465 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\next\node_modules\@next\swc-darwin-x64
+466 silly reify mark deleted [
+466 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\next\\node_modules\\@next\\swc-darwin-x64'
+466 silly reify ]
+467 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\next\node_modules\@next\swc-darwin-arm64
+468 silly reify mark deleted [
+468 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\next\\node_modules\\@next\\swc-darwin-arm64'
+468 silly reify ]
+469 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+470 silly reify mark deleted [
+470 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+470 silly reify ]
+471 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-linux-x64-musl
+472 silly reify mark deleted [
+472 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+472 silly reify ]
+473 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-linux-x64-gnu
+474 silly reify mark deleted [
+474 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+474 silly reify ]
+475 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-linux-arm64-musl
+476 silly reify mark deleted [
+476 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+476 silly reify ]
+477 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+478 silly reify mark deleted [
+478 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+478 silly reify ]
+479 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+480 silly reify mark deleted [
+480 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+480 silly reify ]
+481 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-freebsd-x64
+482 silly reify mark deleted [
+482 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+482 silly reify ]
+483 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-darwin-x64
+484 silly reify mark deleted [
+484 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+484 silly reify ]
+485 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-darwin-arm64
+486 silly reify mark deleted [
+486 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+486 silly reify ]
+487 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-android-arm64
+488 silly reify mark deleted [
+488 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\@tailwindcss\\oxide\\node_modules\\@tailwindcss\\oxide-android-arm64'
+488 silly reify ]
+489 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-win32-ia32-msvc
+490 silly reify mark deleted [
+490 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-win32-ia32-msvc'
+490 silly reify ]
+491 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-win32-arm64-msvc
+492 silly reify mark deleted [
+492 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-win32-arm64-msvc'
+492 silly reify ]
+493 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-wasm32-wasi
+494 silly reify mark deleted [
+494 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-wasm32-wasi'
+494 silly reify ]
+495 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@emnapi\runtime
+496 silly reify mark deleted [
+496 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@emnapi\\runtime'
+496 silly reify ]
+497 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-openharmony-arm64
+498 silly reify mark deleted [
+498 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-openharmony-arm64'
+498 silly reify ]
+499 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-linux-x64-musl
+500 silly reify mark deleted [
+500 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-linux-x64-musl'
+500 silly reify ]
+501 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-linux-x64-gnu
+502 silly reify mark deleted [
+502 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-linux-x64-gnu'
+502 silly reify ]
+503 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-linux-s390x-gnu
+504 silly reify mark deleted [
+504 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-linux-s390x-gnu'
+504 silly reify ]
+505 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-linux-riscv64-musl
+506 silly reify mark deleted [
+506 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-linux-riscv64-musl'
+506 silly reify ]
+507 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-linux-riscv64-gnu
+508 silly reify mark deleted [
+508 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-linux-riscv64-gnu'
+508 silly reify ]
+509 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-linux-ppc64-gnu
+510 silly reify mark deleted [
+510 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-linux-ppc64-gnu'
+510 silly reify ]
+511 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-linux-loong64-musl
+512 silly reify mark deleted [
+512 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-linux-loong64-musl'
+512 silly reify ]
+513 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-linux-loong64-gnu
+514 silly reify mark deleted [
+514 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-linux-loong64-gnu'
+514 silly reify ]
+515 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-linux-arm64-musl
+516 silly reify mark deleted [
+516 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-linux-arm64-musl'
+516 silly reify ]
+517 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-linux-arm64-gnu
+518 silly reify mark deleted [
+518 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-linux-arm64-gnu'
+518 silly reify ]
+519 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-linux-arm-musleabihf
+520 silly reify mark deleted [
+520 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-linux-arm-musleabihf'
+520 silly reify ]
+521 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-linux-arm-gnueabihf
+522 silly reify mark deleted [
+522 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-linux-arm-gnueabihf'
+522 silly reify ]
+523 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-freebsd-x64
+524 silly reify mark deleted [
+524 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-freebsd-x64'
+524 silly reify ]
+525 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-darwin-x64
+526 silly reify mark deleted [
+526 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-darwin-x64'
+526 silly reify ]
+527 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-darwin-arm64
+528 silly reify mark deleted [
+528 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-darwin-arm64'
+528 silly reify ]
+529 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-android-arm64
+530 silly reify mark deleted [
+530 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-android-arm64'
+530 silly reify ]
+531 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\unrs-resolver\node_modules\@unrs\resolver-binding-android-arm-eabi
+532 silly reify mark deleted [
+532 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\unrs-resolver\\node_modules\\@unrs\\resolver-binding-android-arm-eabi'
+532 silly reify ]
+533 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-win32-ia32
+534 silly reify mark deleted [
+534 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-win32-ia32'
+534 silly reify ]
+535 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-win32-arm64
+536 silly reify mark deleted [
+536 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-win32-arm64'
+536 silly reify ]
+537 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-wasm32
+538 silly reify mark deleted [
+538 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-wasm32'
+538 silly reify ]
+539 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-linuxmusl-x64
+540 silly reify mark deleted [
+540 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-linuxmusl-x64'
+540 silly reify ]
+541 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-linuxmusl-arm64
+542 silly reify mark deleted [
+542 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-linuxmusl-arm64'
+542 silly reify ]
+543 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-linux-x64
+544 silly reify mark deleted [
+544 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-linux-x64'
+544 silly reify ]
+545 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-linux-s390x
+546 silly reify mark deleted [
+546 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-linux-s390x'
+546 silly reify ]
+547 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-linux-riscv64
+548 silly reify mark deleted [
+548 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-linux-riscv64'
+548 silly reify ]
+549 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-linux-ppc64
+550 silly reify mark deleted [
+550 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-linux-ppc64'
+550 silly reify ]
+551 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-linux-arm64
+552 silly reify mark deleted [
+552 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-linux-arm64'
+552 silly reify ]
+553 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-linux-arm
+554 silly reify mark deleted [
+554 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-linux-arm'
+554 silly reify ]
+555 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-libvips-linuxmusl-x64
+556 silly reify mark deleted [
+556 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+556 silly reify ]
+557 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-libvips-linuxmusl-arm64
+558 silly reify mark deleted [
+558 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+558 silly reify ]
+559 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-libvips-linux-x64
+560 silly reify mark deleted [
+560 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linux-x64'
+560 silly reify ]
+561 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-libvips-linux-s390x
+562 silly reify mark deleted [
+562 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linux-s390x'
+562 silly reify ]
+563 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-libvips-linux-riscv64
+564 silly reify mark deleted [
+564 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+564 silly reify ]
+565 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-libvips-linux-ppc64
+566 silly reify mark deleted [
+566 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+566 silly reify ]
+567 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-libvips-linux-arm64
+568 silly reify mark deleted [
+568 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linux-arm64'
+568 silly reify ]
+569 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-libvips-linux-arm
+570 silly reify mark deleted [
+570 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linux-arm'
+570 silly reify ]
+571 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-libvips-darwin-x64
+572 silly reify mark deleted [
+572 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-darwin-x64'
+572 silly reify ]
+573 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-libvips-darwin-arm64
+574 silly reify mark deleted [
+574 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+574 silly reify ]
+575 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-darwin-x64
+576 silly reify mark deleted [
+576 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-darwin-x64'
+576 silly reify ]
+577 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\sharp\node_modules\@img\sharp-darwin-arm64
+578 silly reify mark deleted [
+578 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\sharp\\node_modules\\@img\\sharp-darwin-arm64'
+578 silly reify ]
+579 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\lightningcss\node_modules\lightningcss-win32-arm64-msvc
+580 silly reify mark deleted [
+580 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss\\node_modules\\lightningcss-win32-arm64-msvc'
+580 silly reify ]
+581 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\lightningcss\node_modules\lightningcss-linux-x64-musl
+582 silly reify mark deleted [
+582 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss\\node_modules\\lightningcss-linux-x64-musl'
+582 silly reify ]
+583 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\lightningcss\node_modules\lightningcss-linux-x64-gnu
+584 silly reify mark deleted [
+584 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss\\node_modules\\lightningcss-linux-x64-gnu'
+584 silly reify ]
+585 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\lightningcss\node_modules\lightningcss-linux-arm64-musl
+586 silly reify mark deleted [
+586 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss\\node_modules\\lightningcss-linux-arm64-musl'
+586 silly reify ]
+587 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\lightningcss\node_modules\lightningcss-linux-arm64-gnu
+588 silly reify mark deleted [
+588 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss\\node_modules\\lightningcss-linux-arm64-gnu'
+588 silly reify ]
+589 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\lightningcss\node_modules\lightningcss-linux-arm-gnueabihf
+590 silly reify mark deleted [
+590 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss\\node_modules\\lightningcss-linux-arm-gnueabihf'
+590 silly reify ]
+591 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\lightningcss\node_modules\lightningcss-freebsd-x64
+592 silly reify mark deleted [
+592 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss\\node_modules\\lightningcss-freebsd-x64'
+592 silly reify ]
+593 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\lightningcss\node_modules\lightningcss-darwin-x64
+594 silly reify mark deleted [
+594 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss\\node_modules\\lightningcss-darwin-x64'
+594 silly reify ]
+595 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\lightningcss\node_modules\lightningcss-darwin-arm64
+596 silly reify mark deleted [
+596 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss\\node_modules\\lightningcss-darwin-arm64'
+596 silly reify ]
+597 verbose reify failed optional dependency E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype\node_modules\lightningcss\node_modules\lightningcss-android-arm64
+598 silly reify mark deleted [
+598 silly reify   'E:\\Assignment\\Accredian-Enterprise-Prototype\\accredian-enterprise-prototype\\node_modules\\lightningcss\\node_modules\\lightningcss-android-arm64'
+598 silly reify ]
+599 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz 1ms (cache hit)
+600 silly tarball no local data for @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz. Extracting by manifest.
+601 http fetch GET 200 https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz 583ms (cache miss)
+602 silly ADD
+603 silly ADD
+604 silly ADD
+605 silly ADD
+606 silly ADD
+607 silly ADD
+608 silly ADD
+609 silly ADD
+610 silly ADD
+611 silly ADD
+612 silly ADD
+613 silly ADD
+614 silly ADD
+615 silly ADD
+616 silly ADD
+617 silly ADD
+618 silly ADD
+619 silly ADD
+620 silly ADD
+621 silly ADD
+622 silly ADD
+623 silly ADD
+624 silly ADD
+625 silly ADD
+626 silly ADD
+627 silly ADD
+628 silly ADD
+629 silly ADD
+630 silly ADD
+631 silly ADD
+632 silly ADD
+633 silly ADD
+634 silly ADD
+635 silly ADD
+636 silly ADD
+637 silly ADD
+638 silly ADD
+639 silly ADD
+640 silly ADD
+641 silly ADD
+642 silly ADD
+643 silly ADD
+644 silly ADD
+645 silly ADD
+646 silly ADD
+647 silly ADD
+648 silly ADD
+649 silly ADD
+650 silly ADD
+651 silly ADD
+652 silly ADD
+653 silly ADD
+654 silly ADD
+655 silly ADD
+656 silly ADD
+657 silly ADD
+658 silly ADD
+659 silly ADD
+660 silly ADD
+661 silly ADD
+662 silly ADD
+663 silly ADD
+664 silly ADD
+665 silly ADD
+666 silly ADD
+667 silly ADD
+668 silly ADD
+669 silly ADD
+670 silly ADD
+671 silly ADD
+672 silly ADD
+673 silly ADD
+674 silly ADD
+675 silly REMOVE node_modules/@unrs/resolver-binding-win32-ia32-msvc
+676 silly REMOVE node_modules/@unrs/resolver-binding-win32-arm64-msvc
+677 silly REMOVE node_modules/@unrs/resolver-binding-wasm32-wasi
+678 silly REMOVE node_modules/@unrs/resolver-binding-wasm32-wasi/node_modules/@emnapi/runtime
+679 silly REMOVE node_modules/@unrs/resolver-binding-openharmony-arm64
+680 silly REMOVE node_modules/@unrs/resolver-binding-linux-x64-musl
+681 silly REMOVE node_modules/@unrs/resolver-binding-linux-x64-gnu
+682 silly REMOVE node_modules/@unrs/resolver-binding-linux-s390x-gnu
+683 silly REMOVE node_modules/@unrs/resolver-binding-linux-riscv64-musl
+684 silly REMOVE node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+685 silly REMOVE node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+686 silly REMOVE node_modules/@unrs/resolver-binding-linux-loong64-musl
+687 silly REMOVE node_modules/@unrs/resolver-binding-linux-loong64-gnu
+688 silly REMOVE node_modules/@unrs/resolver-binding-linux-arm64-musl
+689 silly REMOVE node_modules/@unrs/resolver-binding-linux-arm64-gnu
+690 silly REMOVE node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+691 silly REMOVE node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+692 silly REMOVE node_modules/@unrs/resolver-binding-freebsd-x64
+693 silly REMOVE node_modules/@unrs/resolver-binding-darwin-x64
+694 silly REMOVE node_modules/@unrs/resolver-binding-darwin-arm64
+695 silly REMOVE node_modules/@unrs/resolver-binding-android-arm64
+696 silly REMOVE node_modules/@unrs/resolver-binding-android-arm-eabi
+697 silly REMOVE node_modules/@tailwindcss/oxide-win32-arm64-msvc
+698 silly REMOVE node_modules/@tailwindcss/oxide-wasm32-wasi
+699 silly REMOVE node_modules/@tailwindcss/oxide-linux-x64-musl
+700 silly REMOVE node_modules/@tailwindcss/oxide-linux-arm64-musl
+701 silly REMOVE node_modules/@tailwindcss/oxide-linux-x64-gnu
+702 silly REMOVE node_modules/@tailwindcss/oxide-linux-arm64-gnu
+703 silly REMOVE node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+704 silly REMOVE node_modules/@tailwindcss/oxide-freebsd-x64
+705 silly REMOVE node_modules/@tailwindcss/oxide-darwin-x64
+706 silly REMOVE node_modules/@tailwindcss/oxide-darwin-arm64
+707 silly REMOVE node_modules/@tailwindcss/oxide-android-arm64
+708 silly REMOVE node_modules/@next/swc-win32-arm64-msvc
+709 silly REMOVE node_modules/@next/swc-linux-x64-musl
+710 silly REMOVE node_modules/@next/swc-linux-x64-gnu
+711 silly REMOVE node_modules/@next/swc-linux-arm64-musl
+712 silly REMOVE node_modules/@next/swc-linux-arm64-gnu
+713 silly REMOVE node_modules/@next/swc-darwin-x64
+714 silly REMOVE node_modules/@next/swc-darwin-arm64
+715 silly REMOVE node_modules/@img/sharp-win32-ia32
+716 silly REMOVE node_modules/@img/sharp-win32-arm64
+717 silly REMOVE node_modules/@img/sharp-wasm32
+718 silly REMOVE node_modules/@img/sharp-linuxmusl-x64
+719 silly REMOVE node_modules/@img/sharp-linuxmusl-arm64
+720 silly REMOVE node_modules/@img/sharp-linux-x64
+721 silly REMOVE node_modules/@img/sharp-linux-s390x
+722 silly REMOVE node_modules/@img/sharp-linux-riscv64
+723 silly REMOVE node_modules/@img/sharp-linux-ppc64
+724 silly REMOVE node_modules/@img/sharp-linux-arm64
+725 silly REMOVE node_modules/@img/sharp-linux-arm
+726 silly REMOVE node_modules/@img/sharp-libvips-linuxmusl-x64
+727 silly REMOVE node_modules/@img/sharp-libvips-linuxmusl-arm64
+728 silly REMOVE node_modules/@img/sharp-libvips-linux-x64
+729 silly REMOVE node_modules/@img/sharp-libvips-linux-s390x
+730 silly REMOVE node_modules/@img/sharp-libvips-linux-riscv64
+731 silly REMOVE node_modules/@img/sharp-libvips-linux-ppc64
+732 silly REMOVE node_modules/@img/sharp-libvips-linux-arm64
+733 silly REMOVE node_modules/@img/sharp-libvips-linux-arm
+734 silly REMOVE node_modules/@img/sharp-libvips-darwin-x64
+735 silly REMOVE node_modules/@img/sharp-libvips-darwin-arm64
+736 silly REMOVE node_modules/@img/sharp-darwin-x64
+737 silly REMOVE node_modules/@img/sharp-darwin-arm64
+738 silly REMOVE node_modules/lightningcss-win32-arm64-msvc
+739 silly REMOVE node_modules/lightningcss-linux-x64-musl
+740 silly REMOVE node_modules/lightningcss-linux-x64-gnu
+741 silly REMOVE node_modules/lightningcss-linux-arm64-musl
+742 silly REMOVE node_modules/lightningcss-linux-arm64-gnu
+743 silly REMOVE node_modules/lightningcss-linux-arm-gnueabihf
+744 silly REMOVE node_modules/lightningcss-freebsd-x64
+745 silly REMOVE node_modules/lightningcss-darwin-x64
+746 silly REMOVE node_modules/lightningcss-darwin-arm64
+747 silly REMOVE node_modules/lightningcss-android-arm64
+748 verbose cwd E:\Assignment\Accredian-Enterprise-Prototype\accredian-enterprise-prototype
+749 verbose os Windows_NT 10.0.19045
+750 verbose node v22.19.0
+751 verbose npm  v10.9.3
+752 notice
+752 notice New major version of npm available! 10.9.3 -> 12.0.1
+752 notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1
+752 notice To update run: npm install -g npm@12.0.1
+752 notice  { force: true, [Symbol(proc-log.meta)]: true }
+753 verbose exit 0
+754 info ok
