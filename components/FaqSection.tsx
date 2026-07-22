@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { faqs } from "@/lib/content";
 import { Icon } from "./ui/Icon";
-import { SectionHeading } from "./ui/SectionHeading";
 
 export const FaqSection = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(0);

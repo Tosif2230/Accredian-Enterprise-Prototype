@@ -1,5 +1,3 @@
-import { Icon } from "./ui/Icon";
-
 const audiences = [
   {
     title: "Program Specific",
@@ -51,7 +49,7 @@ export const ApproachSection = () => (
         Designed to Address Every Professional Focus
       </p>
       <div className="mt-12 grid gap-5 lg:grid-cols-4">
-        {audiences.map((audience, index) => (
+        {audiences.map((audience) => (
           <article
             key={audience.title}
             className="rounded-2xl bg-white p-6 shadow-sm"

@@ -60,7 +60,7 @@ export const LeadFormSection = () => {
       <div className="mx-auto grid max-w-7xl gap-10 px-5 sm:px-8 lg:grid-cols-[.8fr_1.2fr] lg:px-10">
         <div className="text-white">
           <p className="text-sm font-bold uppercase tracking-[.18em] text-teal-100">
-            Let's build together
+            Let&apos;s build together
           </p>
           <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">
             Ready to make capability your advantage?
